@@ -1,0 +1,43 @@
+header {
+  align-items: center;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-link {
+  color: white;
+  display: flex;
+  margin: 0 15;
+  text-decoration: none;
+}
+
+.nav-link div {
+  text-align: center;
+}
+
+nav img {
+  padding: 6px;
+  width: 40px;
+}
+
+/* .test {
+  position: absolute;
+} */
+
+.test:before {
+  background-color: green;
+  border-radius: 50%;
+
+  /* content: '1'; */
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,33 @@
+.header__form {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+}
+
+.input-search {
+  border: none;
+  border-radius: 5px 0 0 5px;
+  height: 100%;
+  padding: none;
+
+  /* box-shadow: 0 0 0 0; */
+
+  /* outline: 0; */
+}
+
+.container-input-search {
+  align-items: center;
+  display: flex;
+}
+
+.search-btn {
+  border: none;
+  border-radius: 0 5px 5px 0;
+  height: 100%;
+  width: 40px;
+
+  /* box-shadow: 0 0 0 0; */
+
+  /* outline: 0; */
+}
